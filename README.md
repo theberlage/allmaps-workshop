@@ -10,7 +10,7 @@ Delft University of Technology
 ## Prerequisites
 - [GitHub account](https://github.com)
 - [GitHub Desktop](https://desktop.github.com) (or command line tools)
-- Clone this repository
+- Fork this repository
 
 ## Find a IIIF map
 - [IIIF Map Collections](https://observablehq.com/@bertspaan/iiif-map-collections?collection=@bertspaan/allmaps)
