@@ -10,6 +10,7 @@ Delft University of Technology
 ## Prerequisites
 - [GitHub account](https://github.com)
 - [GitHub Desktop](https://desktop.github.com) (or command line tools)
+- Fork this repository
 
 ## Find a IIIF map
 - [IIIF Map Collections](https://observablehq.com/@bertspaan/iiif-map-collections?collection=@bertspaan/allmaps)
@@ -29,3 +30,4 @@ Delft University of Technology
 - [GeoJSON](http://geojson.io)
 
 ## Save the annotation to GitHub
+- Start a pull request
