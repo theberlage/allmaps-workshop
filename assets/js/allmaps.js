@@ -29,6 +29,6 @@ async function fetchJson (url) {
       })
     })
     {% assign annotations = site.static_files | where: "json", true %}
-    {% for annotation in annotations %}addGeorefAnnotationByUrl(warpedMapSource, '{{ annotation.path }}')
+    {% for annotation in annotations %}addGeorefAnnotationByUrl(warpedMapSource, '{{site.baseurl}}{{ annotation.path }}')
     {% endfor %}
   }
