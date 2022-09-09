@@ -11,6 +11,7 @@ Delft University of Technology
 - [GitHub account](https://github.com)
 - [GitHub Desktop](https://desktop.github.com) (or command line tools)
 - Fork this repository
+- Updated browser (Firefox or Chrome)
 
 ## Find a IIIF map
 - [IIIF Map Collections](https://observablehq.com/@bertspaan/iiif-map-collections?collection=@bertspaan/allmaps)
