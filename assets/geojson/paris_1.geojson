@@ -1,7 +1,8 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {    
+    {   
+      // ELiott Feature 1
       "type": "Feature",
       "properties": {},
       "geometry": {
