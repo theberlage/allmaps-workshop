@@ -25,7 +25,7 @@ async function fetchJson (url) {
       ],
       view: new ol.View({
         center: ol.proj.fromLonLat([12.4964, 41.9028]),
-        zoom: 15
+        zoom: 1
       })
     })
     {% assign annotations = site.static_files | where: "json", true %}
