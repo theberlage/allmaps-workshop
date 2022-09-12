@@ -36,7 +36,7 @@ plugins:
 
 defaults:
   - scope:
-      path: "allmaps/annotations/georef"
+      path: "allmaps/annotations"
     values:
       json: true
 
