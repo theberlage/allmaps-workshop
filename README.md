@@ -21,7 +21,8 @@ Delft University of Technology
 - [Allmaps Editor](https://editor.allmaps.org)
 
 ## Add the georef annotation to GitHub
-- Copy the georef annotation
+- Copy the contents of the annotation
+- Add to [/assets/annotations](https://github.com/theberlage/allmaps-workshop/tree/main/assets/annotations)
 
 ## View the map
 - Find the georef annotation on GitHub and copy the raw url
@@ -33,4 +34,4 @@ Delft University of Technology
   - Meta > Add map Layer > Paste url
 
 ## Save the annotation to GitHub
-- Start a pull request
+- Add to [/assets/geojson](https://github.com/theberlage/allmaps-workshop/tree/main/assets/geojson)
