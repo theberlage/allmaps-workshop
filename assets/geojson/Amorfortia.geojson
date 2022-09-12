@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "marker-color": "#7e7e7e",
-        "marker-size": "medium",
+        "marker-size": "large",
         "marker-symbol": "",
         "type": "church"
       },
