@@ -133,39 +133,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "7cf1342f5c9dbea2",
-      "type": "Annotation",
-      "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "http://geojson.org/geojson-ld/geojson-context.jsonld",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "motivation": "georeferencing",
-      "target": {
-        "type": "Image",
-        "source": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~295133~90065790/full/full/0/default.jpg",
-        "service": [
-          {
-            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~295133~90065790",
-            "type": "ImageService2"
-          }
-        ],
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"49522\" height=\"30102\"><polygon points=\"7253,17963 9576,12267 14669,9162 21036,6191 23560,5118 28743,6772 31893,10145 34372,15283 35355,18142 34730,29178 7834,29580 7253,17963\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "purpose": "gcp-georeferencing",
-        "transformation": {
-          "type": "polynomial",
-          "order": 0
-        },
-        "features": []
-      }
     }
   ]
 }
