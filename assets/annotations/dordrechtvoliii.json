@@ -1,0 +1,90 @@
+{
+  "type": "AnnotationPage",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld"
+  ],
+  "items": [
+    {
+      "id": "769ac203aaea66b6",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~300714~90071910/full/full/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~300714~90071910",
+            "type": "ImageService2"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"11256\" height=\"7546\"><polygon points=\"1613,832 9415,832 9360,6430 1622,6366 1613,832\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                4665,
+                5057
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.6669925,
+                51.8181395
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                7761,
+                4308
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.6598411,
+                51.8142957
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2873,
+                3962
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.6733195,
+                51.8181051
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
