@@ -36,7 +36,7 @@ plugins:
 
 defaults:
   - scope:
-      path: "assets/iiif/georef"
+      path: "allmaps/annotations/georef"
     values:
       json: true
 
