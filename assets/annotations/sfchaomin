@@ -1,0 +1,90 @@
+{
+  "type": "AnnotationPage",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld"
+  ],
+  "items": [
+    {
+      "id": "efeb161660a33a01",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~239938~5512085/full/full/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~239938~5512085",
+            "type": "ImageService2"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"11297\" height=\"7822\"><polygon points=\"591,494 611,5650 930,5863 1596,6130 1611,6515 1873,6700 2214,6748 2570,6662 2695,6441 2828,6227 3051,6125 3335,6370 3559,6287 3559,5965 3558,5793 3846,5408 4383,5360 4425,5637 4687,5789 4892,5935 5352,5990 5556,6014 6263,6205 6993,5864 7809,5285 8570,4499 8701,3964 8961,3587 8905,3029 8925,2390 9080,1733 8696,1121 8371,891 8306,585 8159,480 591,494\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                6503,
+                4837
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -122.3991506,
+                37.791011
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                6039,
+                4389
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -122.4035479,
+                37.7875012
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                6730,
+                4472
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -122.4028078,
+                37.7928307
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
