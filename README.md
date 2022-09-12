@@ -28,7 +28,9 @@ Delft University of Technology
 
 ## Annotate the map
 - [Tile Server instructions](https://observablehq.com/@bertspaan/allmaps-tile-server)
+- Or: `https://allmaps.xyz/{z}/{x}/{y}.png?url=[url to annotation]`
 - [GeoJSON](http://geojson.io)
+  - Meta > Add map Layer > Paste url
 
 ## Save the annotation to GitHub
 - Start a pull request
