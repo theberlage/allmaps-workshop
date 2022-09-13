@@ -16,15 +16,16 @@ Delft University of Technology
 ## Whats is IIIF?
 - The [International Image Interoperability Framework](https://iiif.io) (IIIF) is a set of standards used by cultural heritage institutions to share their digital collection data.
 - The [IIIF Image API](https://iiif.io/api/image/3.0/) supports request for parts of images at different zoom levels. This makes it possible to quickly navigate high resolution image files. For example:
-  - The full image: [https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/full/full/0/default.jpg](https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/full/full/0/default.jpg)
+  - Full image at 1000px: [https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/full/1000,/0/default.jpg](https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/full/1000,/0/default.jpg)
   - Part of the image: [https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/4316,4389,1557,890/1557,890/0/default.jpg](https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/4316,4389,1557,890/1557,890/0/default.jpg)
   - Left corner of the image: [https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/0,0,1000,1000/500,500/0/default.jpg](https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/0,0,1000,1000/500,500/0/default.jpg)
   - Rotated image: [https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/0,0,1000,1000/500,500/90/default.jpg](https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/0,0,1000,1000/500,500/90/default.jpg)
+  - Full image: [https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/full/full/0/default.jpg](https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/full/full/0/default.jpg)
   - The URL scheme: `https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/[region]/[size]/[rotation]/[quality].[format]`
-  - Not all IIIF-servers support the same functionalities!
+  - Not all IIIF-servers support the same functionalities! The level of support is described in an info.json file: [https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/info.json](https://dlc.services/iiif-img/7/4/0b0af56c-d836-4fe4-a9da-7ed66ea7a236/info.json)
 - The [IIIF Presentation API](https://iiif.io/api/presentation/3.0/) describes the relationship between different images and their metadata. For example the individual pages that together make up the pages of a book. On digital collection portals that support IIIF, you can usually find a link to the IIIF Presentation Manifest. This is a json document holding the information about the object. You can use this link to open the object in other viewers.
 
-## Find IIIF maps
+## How to find IIIF maps
 - A curated list of [IIIF Map Collections](https://observablehq.com/@bertspaan/iiif-map-collections?collection=@bertspaan/allmaps)
 - [David Rumsey Map Collection](https://www.davidrumsey.com)
 - Dutch collections that support IIIF:
@@ -40,7 +41,7 @@ Delft University of Technology
    
 ❗Please note: not all of these collections expose the IIIF-link for the public, and some are currently not compatible with Allmaps.
 
-## Georeference maps
+## Georeferencing with Allmaps
 - Copy the link to the IIIF-manifest
 - Open the [Allmaps Editor](https://editor.allmaps.org)
 - Paste the link and click 'Load'. At the top you now see four tabs, you can also go back and forth
