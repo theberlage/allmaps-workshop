@@ -28,6 +28,7 @@ Delft University of Technology
 
 ## How to find IIIF maps
 - A curated list of [IIIF Map Collections](https://observablehq.com/@bertspaan/iiif-map-collections?collection=@bertspaan/allmaps)
+- [Digitised maps from TU Delft Library](https://observablehq.com/@sammeltassen/tresor-maps) – at the moment without metadata
 - [David Rumsey Map Collection](https://www.davidrumsey.com)
 - [River Maps](https://github.com/theberlage/river-maps)
 - Dutch collections that support IIIF:
