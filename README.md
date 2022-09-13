@@ -7,6 +7,8 @@ Faculty of Architecture and the Built Environment
 
 Delft University of Technology
 
+By Jules Schoonman and Bert Spaan
+
 ## Prerequisites
 - [GitHub account](https://github.com)
 - [GitHub Desktop](https://desktop.github.com) (or command line tools)
@@ -83,7 +85,7 @@ There're two ways to view the annotation in the Allmaps Viewer.
 ❗You can also paste the link generated in the previous section (under *Alternative method*) in the Annotation URL field.
 
 ## Add the map as a layer in geojson.io
-- In order to add the map as a layer in geojson.io (and also in GIS-applications), you need to use the Allmaps Tile Server. The Tile Server uses the georeferencing annotation to create [XYZ map tiles](https://en.wikipedia.org/wiki/Tiled_web_map).
+- In order to add the map as a layer in geojson.io (and also in GIS-applications), you need to use the Allmaps Tile Server. The Tile Server acts as a proxy server to translate IIIF images to [XYZ map tiles](https://en.wikipedia.org/wiki/Tiled_web_map), using the georeferencing annotation.
 - There're two ways to generate the URL template:
   - Follow the [Tile Server instructions](https://observablehq.com/@bertspaan/allmaps-tile-server) and click the 'Copy URL template to clipboard' button
   - Copy the url to the georeferencing annotation (see previous section) and place it after `=` in the following url: `https://allmaps.xyz/{z}/{x}/{y}.png?url=`
@@ -92,10 +94,15 @@ There're two ways to view the annotation in the Allmaps Viewer.
 - You can repeat this to add another layer
 
 ## Annotate the map with geojson
-- In the geojson.io editor you can add markers, rectangles, polygons and polylines (see the tool panel). You can also edit and delete features by using the buttons at the bottom of the tool panel.
-- When you click a feature, you can edit its metadata in a popup panel. Each row in the table represents a label-value pair: on the left the labels, on the right the values. You can add a new pair by adding a new row.
+- In the geojson.io editor you can add markers, rectangles, polygons and polylines (see the tool palette). You can also edit and delete features by using the buttons at the bottom of the tool palette (follow the on-screen instructions).
+- When you click a feature, you can edit its metadata in a popup panel. Each row in the table represents a label-value pair: labels left and values right. You can add a new pair by adding a new row.
 - Make sure to establish standards, as a group, for adding metadata. Use simple names for labels, without caps and spaces.
-- Disregard the style properties (they will only work in the geojson.io editor)
+- Disregard the style properties for now (they'll only work in the geojson.io editor)
+
+❗You can temporarily hide the json-editor on the right by clicking the arrow on the very top of the line numbers column.
 
 ## Save the annotation to GitHub
-- Make a new file in [/assets/geojson](https://github.com/theberlage/allmaps-workshop/tree/main/assets/geojson) and paste the contents. Give the file the extension `.geojson`.
+- On the right side of the geojson.io editor you'll see a json document containing the features you created. Select all, and copy the contents of this panel.
+- Make a new file in [/assets/geojson](https://github.com/theberlage/allmaps-workshop/tree/main/assets/geojson) and paste the contents. Use the extension `.geojson`. Commit the file.
+- GitHub will show a preview of the file; click 'Display the source blob' on top of the preview to show the source code.
+- To open the file again in the geojson.io editor, copy the raw contents of the file and paste them in the geojson side panel.
