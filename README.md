@@ -61,32 +61,36 @@ The Editor saves your work. If you close the window, open the editor again, past
 - Copy the contents of the annotation by clicking the 'Copy' button
 - Add a new file to the [/assets/annotations](https://github.com/theberlage/allmaps-workshop/tree/main/assets/annotations) folder in this GitHub repository. Give it a filename without spaces and special charaters (you can use - to indicate spaces). Add `.json` as filename. Save the file by committing it.
 
-*Alternative method*
-Several annotations can also be combined on a single `AnnotationPage`. Allmaps can generate this file for you. Follow these steps:
+*Alternative method*: several annotations can also be combined on a single `AnnotationPage`. Allmaps can generate this file for you. Follow these steps:
 
 - Copy the IIIF manifest link
 - Open this url: [https://annotations.allmaps.org/?url=](https://annotations.allmaps.org/?url=)
-- Paste the IIIF manifest link after `?url=` and press enter
-- Select all and copy the contents, save this to GitHub (with `.json` extension)
+- Paste the IIIF manifest link after `?url=` in the browser address bar and press enter (the link will change automatically)
+- Select all and copy the contents, save this to GitHub (using the `.json` extension)
 
 ## View your annotation in the Allmaps Viewer
 There're two ways to view the annotation in the Allmaps Viewer.
 
-- Navigate to the file on GitHub.
-  1. Option 1: Click the 'Raw' button. Copy the URL (in the browser address bar).
-  2. Option 2: Click the 'Copy raw contents' button next to the bin
-- Go to the [Allmaps Viewer](https://viewer.allmaps.org).
-  1. Option 1: Paste the URL in the first field (Annotation URL) 
-  2. Option 2: Paste the contents in the text box
+- Navigate to the file on GitHub
+  - Option 1: Click the 'Raw' button and copy the URL in the address bar of the browser
+  - Option 2: Click the 'Copy raw contents' button next to the bin
+- Go to the [Allmaps Viewer](https://viewer.allmaps.org)
+  - Option 1: Paste the URL in the first field (Annotation URL) 
+  - Option 2: Paste the contents in the text box
 - Click view
 
-❗You can also paste the link generated above (under *Alternative method*)
+❗You can also paste the link generated in the previous section (under *Alternative method*) in the Annotation URL field.
 
-## Annotate the map
-- [Tile Server instructions](https://observablehq.com/@bertspaan/allmaps-tile-server)
-- Or: `https://allmaps.xyz/{z}/{x}/{y}.png?url=[url to annotation]`
-- [GeoJSON](http://geojson.io)
-  - Meta > Add map Layer > Paste url
+## Add the map as a layer in geojson.io
+- In order to add the map as a layer in geojson.io (and also in GIS-applications), you need to use the Allmaps Tile Server. The Tile Server uses the georeferencing annotation to create [XYZ map tiles](https://en.wikipedia.org/wiki/Tiled_web_map).
+- There're two ways to generate the URL template:
+  - Follow the [Tile Server instructions](https://observablehq.com/@bertspaan/allmaps-tile-server) and click the 'Copy URL template to clipboard' button
+  - Copy the url to the georeferencing annotation (see previous section) and place it after `=` in the following url: `https://allmaps.xyz/{z}/{x}/{y}.png?url=`
+- Go to the [GeoJSON](http://geojson.io) editor
+- Click 'Meta' and 'Add map layer' in the top menu. Paste the URL template and give the layer a name. Navigate the map to see the result (it won't do this automatically). At the bottom right, a checkbox appears to hide/show the layer
+- You can repeat this to add another layer
+
+## Annotate the map with geojson
 
 ## Save the annotation to GitHub
-- Add to [/assets/geojson](https://github.com/theberlage/allmaps-workshop/tree/main/assets/geojson)
+- Make a new file in [/assets/geojson](https://github.com/theberlage/allmaps-workshop/tree/main/assets/geojson) and paste the contents. Give the file the extention `.geojson`.
