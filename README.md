@@ -60,7 +60,7 @@ The Editor saves your work. If you close the window, open the editor again, past
 
 - Click the right 'code' button in the bottom menu. A popup shows the results of your work: a json webannotation that references the IIIF image. The document contains the mask (in the form of a SVG selector) and the control points (in the form of an embedded GeoJSON document, see below).
 - Copy the contents of the annotation by clicking the 'Copy' button
-- Add a new file to the [/assets/annotations](https://github.com/theberlage/allmaps-workshop/tree/main/assets/annotations) folder in this GitHub repository. Give it a filename without spaces and special charaters (you can use - to indicate spaces). Add `.json` as filename. Save the file by committing it.
+- Add a new file to the [/assets/annotations](https://github.com/theberlage/allmaps-workshop/tree/main/assets/annotations) folder in this GitHub repository. Give it a filename without spaces and special characters (you can use - to indicate spaces). Add `.json` as filename. Save the file by committing it.
 
 *Alternative method*: several annotations can also be combined on a single `AnnotationPage`. Allmaps can generate this file for you. Follow these steps:
 
@@ -92,6 +92,10 @@ There're two ways to view the annotation in the Allmaps Viewer.
 - You can repeat this to add another layer
 
 ## Annotate the map with geojson
+- In the geojson.io editor you can add markers, rectangles, polygons and polylines (see the tool panel). You can also edit and delete features by using the buttons at the bottom of the tool panel.
+- When you click a feature, you can edit its metadata in a popup panel. Each row in the table represents a label-value pair: on the left the labels, on the right the values. You can add a new pair by adding a new row.
+- Make sure to establish standards, as a group, for adding metadata. Use simple names for labels, without caps and spaces.
+- Disregard the style properties (they will only work in the geojson.io editor)
 
 ## Save the annotation to GitHub
-- Make a new file in [/assets/geojson](https://github.com/theberlage/allmaps-workshop/tree/main/assets/geojson) and paste the contents. Give the file the extention `.geojson`.
+- Make a new file in [/assets/geojson](https://github.com/theberlage/allmaps-workshop/tree/main/assets/geojson) and paste the contents. Give the file the extension `.geojson`.
