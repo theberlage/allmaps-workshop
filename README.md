@@ -10,15 +10,35 @@ Delft University of Technology
 ## Prerequisites
 - [GitHub account](https://github.com)
 - [GitHub Desktop](https://desktop.github.com) (or command line tools)
-- Fork this repository
 - Updated browser (Firefox or Chrome)
+- Optional: code editor like [Visual Studio Code](https://code.visualstudio.com)
 
-## Find a IIIF map
-- [IIIF Map Collections](https://observablehq.com/@bertspaan/iiif-map-collections?collection=@bertspaan/allmaps)
+## Quick introduction to IIIF
+
+## Find IIIF maps
+- A curated list of [IIIF Map Collections](https://observablehq.com/@bertspaan/iiif-map-collections?collection=@bertspaan/allmaps)
 - [David Rumsey Map Collection](https://www.davidrumsey.com)
+- Dutch collections that support IIIF:
+  - [National Archives](https://www.nationaalarchief.nl/onderzoeken/zoeken?activeTab=maps&rm=gallery)
+  - [Wageningen University](https://images.wur.nl/digital/search/searchterm/map/field/type/mode/exact/conn/and)
+  - [Vrije Universiteit](https://vu.contentdm.oclc.org/digital/collection/krt/search)
+  - [University of Groningen](https://facsimile.ub.rug.nl/digital/collection/Kaarten/search)
+  - [Leiden University Libraries](https://digitalcollections.universiteitleiden.nl/search?type=dismax&islandora_solr_search_navigation=1&f%5B0%5D=RELS_EXT_isMemberOfCollection_uri_ms:%22info%5C:fedora%5C/collection%5C:ubl_maps%22&f%5B1%5D=fedora_datastreams_ms:MANIFEST)
+  - [Gouda Tijdmachine](https://www.goudatijdmachine.nl/data/collection/ark:/60537/bb25wx)
+  - [Utrecht University](https://www.uu.nl/en/special-collections/collections/maps-and-atlases)
+  - [Rijksdienst voor Cultureel Erfgoed](https://beeldbank.cultureelerfgoed.nl/)
+  - [Amsterdam City Archive](https://archief.amsterdam/beeldbank/?mode=gallery&view=horizontal&sort=random%7B1656067417757%7D%20asc)
+   
+❗Please note: not all of these collections expose the IIIF-link for the public, and some are currently not compatible with Allmaps.
 
-## Georeference the map
-- [Allmaps Editor](https://editor.allmaps.org)
+## Georeference maps
+- Copy the link to the IIIF-manifest
+- Open the [Allmaps Editor](https://editor.allmaps.org)
+- Paste the link and click 'Load'. At the top you now see four tabs, you can also go back and forth
+- Select an image under the 'Collection' tab (often there's only one image to select). If somebody else has already began georeferencing the map, you'll be notified about this.
+- Click the 'Mask' tab and draw a mask by zooming in and clicking points. The mask will be used to crop the image in the viewer. If you want to start again, click the centre button on the bottom right. This opens a panel of all masks; clicking the bin removes them (there's no way to undo). You can move points or add new points to the mask by clicking (don't release the mouse) and dragging points of lines.
+- Now go to the 'Georeference' tab. On the left you see the selected image, on the right a world map. Zoom to the region of the map on the right. Click a point you recognise on both maps (and which has remained the same over time), such as a church tower or road crossing. Add the point on both sides (a number will indicate that they are paired). Add at least three of these points (they are called 'control points'). If you unfold the layers panel (centre button on the bottom right) you see an overview of your mask and the control points. You can remove points if needed (there's no undo yet).
+- Navigate to the 'Results' tab and open the link in a new browser tab. The georeferenced map will now open in the Allmaps Viewer. If it doesn't show up right away, go back and forth between 'Original image' and 'Warped map' at the top right. The mask is indicated with an orange outline (the image is not cropped yet). If the IIIF-manifest contained multiple images and if more than one were georeferenced, these are shown at the bottom in a thumbnail row. Click them to change the view.
 
 ## Add the georef annotation to GitHub
 - Copy the contents of the annotation
