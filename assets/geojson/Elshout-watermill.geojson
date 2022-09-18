@@ -147,7 +147,7 @@
     },
     {
       "type": "Feature",
-        "properties": {
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -163,7 +163,7 @@
     },
     {
       "type": "Feature",
-        "properties": {
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -179,7 +179,7 @@
     },
     {
       "type": "Feature",
-        "properties": {
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -195,7 +195,7 @@
     },
     {
       "type": "Feature",
-            "properties": {
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -211,7 +211,7 @@
     },
     {
       "type": "Feature",
-        "properties": {
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -222,6 +222,171 @@
         "coordinates": [
           4.6425604820251465,
           51.88429944661902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "steam pump",
+        "year": 1868
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.639164805412292,
+          51.88823959601474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "steam rice peeling mill",
+        "year": 1853
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.629009962081909,
+          51.88370342756091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "steam sawmill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.62873101234436,
+          51.88214711831826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "peelmill",
+        "year": 1807
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.622615575790405,
+          51.892093323959934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "flour mill",
+        "year": "~1800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6140217781066895,
+          51.89526809724357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.613678455352783,
+          51.895294580331765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.612079858779907,
+          51.897131806472544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.615802764892578,
+          51.897270836744546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "sawmill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.617900252342224,
+          51.894059789742435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "steam sawmill",
+        "year": 1856
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.639095067977905,
+          51.893874402702934
         ]
       }
     }
