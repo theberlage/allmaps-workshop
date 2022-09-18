@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.639620780944824,
+          51.885027903624625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.640371799468994,
+          51.883716672514716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.641916751861572,
+          51.88280938415611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.64221715927124,
+          51.88160405305087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.643746018409729,
+          51.88072652518693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.641326665878296,
+          51.88038544369633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties":{
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.639990925788879,
+          51.87955094214862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties":{
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.639320373535156,
+          51.87868993225298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.642952084541321,
+          51.88451798496023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.646165370941162,
+          51.88109740697779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties":{
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6474528312683105,
+          51.87995163728526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.647141695022583,
+          51.8789383021843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.649662971496582,
+          51.87972314214907
+        ]
+      }
+    }
+  ]
+}
