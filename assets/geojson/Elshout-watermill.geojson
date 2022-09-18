@@ -389,6 +389,22 @@
           51.893874402702934
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.649062156677246,
+          51.88592852505661
+        ]
+      }
     }
   ]
 }
