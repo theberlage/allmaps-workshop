@@ -405,6 +405,151 @@
           51.88592852505661
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.651776552200317,
+          51.883955081016026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "flourmill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.659930467605591,
+          51.887928369887035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "steam oil mill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.685626029968262,
+          51.89186820117541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.732339382171631,
+          51.89384129779396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7315990924835205,
+          51.894596083657326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.735010862350464,
+          51.894556358401644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "watermill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.737553596496582,
+          51.89593348010397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "flourmill",
+        "year": 1880
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.755599498748779,
+          51.90925230563489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "cornmill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.676871299743652,
+          51.89388102368178
+        ]
+      }
     }
   ]
 }
