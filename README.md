@@ -108,3 +108,5 @@ There're two ways to view the annotation in the Allmaps Viewer.
 - Make a new file in [/assets/geojson](https://github.com/theberlage/allmaps-workshop/tree/main/assets/geojson) and paste the contents. Use the extension `.geojson` and commit the file.
 - GitHub will show a preview of the file; click the `Display the source blob` button at the top of the preview to show the source code.
 - To open the file again in the geojson.io editor, copy the raw contents of the file and paste them in the geojson.io side panel.
+
+## Todo: Add placemark.io manual
