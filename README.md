@@ -51,22 +51,23 @@ Some places where you can find IIIF maps:
 - Copy the link to the IIIF manifest
 - Open the [Allmaps Editor](https://editor.allmaps.org)
 - Paste the link in the field and click `Load`. At the top you now see four tabs (you can always go back and forth). If you get an error message, double check if you copied the right link.
-- Select an image under the `Collection` tab (often there's only a single image to select). If somebody else has already begun georeferencing the map, you'll be notified about this (but you can continue).
-- Click the `Mask` tab and draw a mask by zooming in and clicking the image. The mask will be used to crop the map in the viewer. If you want to start again, click the middle button of the menu on the bottom right. This opens up a panel listing all masks; click the bin to remove one (there's no way to undo this currently). You can move points around or add new points to the mask by dragging points or lines.
-- Now go to the `Georeference` tab. On the left you see the selected image, on the right a world map. Zoom to the region of the map on the right. Click a point you recognise on both maps (which has remained the same over time), such as a church tower or a road crossing. Add the point on both sides (a number will indicate that they are paired). Add at least three of these points (they are called *control points*) and try to spread them as much as possible. If you unfold the layers panel (middle button of the menu) you obtain an overview of your mask and the control points. You can remove points if needed (there's no undo yet).
-- Navigate to the `Results` tab and open the link in a new browser window. The georeferenced map will now open in the Allmaps Viewer. If it doesn't show up right away, go back and forth between the `Original image` and `Warped map` buttons. The mask is indicated with an orange outline (the images are not yet cropped in this version of the viewer). If the IIIF manifest contains multiple images and if more than one were georeferenced, other images show up in a thumbnail row. Click another image to change the view.
+- Select an image under the `Collection` tab (often there's only a single image to select). The two icons indicate whether a map already contains a mask and/or control points.
+- Click the `Mask` tab and draw a mask by zooming in and clicking the image. The mask will be used to crop the map in the viewer. If you want to start again, click the middle button of the menu on the bottom right. This opens up a panel listing all masks; click the bin to remove one (there's no way to undo this currently). You can move points around or add new points to the mask by dragging points or lines. You can also remove a point by clicking it while holding shift.
+- Now go to the `Georeference` tab. On the left you see the selected image, on the right a world map. Zoom to the region of the map on the right. Click a point you recognise on both maps (which has remained the same over time), such as a church tower or a road crossing. Add the point on both sides (a number will indicate that they are paired). Add at least three of these points (they are called *control points*) and try to spread them as much as possible. If you unfold the layers panel (middle button of the menu) you obtain an overview of your mask and the control points. You can remove points if needed (there's no undo function yet). You can also select another mask and add points for that selection.
+- Navigate to the `Results` tab and open the link in a new browser window. Depending on the input you can open a single georeferenced map (one mask), all the georeferenced maps on the single image or all georeferenced maps containing within the manifest. The georeferenced map will now open in the Allmaps Viewer. You can go back and forth between the original image and warped map by clicking the buttons in the top right corner. If the IIIF manifest contains multiple images and if more than one were georeferenced, all images are rendered at once.
 - If you like to improve your work, you can go back to the editor to do so (browser back, or navigate to the tab). You can leave the Viewer tab open and reload the page to see the results.
 
 ❗Removing points from the menu might confuse the numbering. Reload the page to reset the numbering. Note that the order of numbers could change after reloading the page.
 
 ## Save the georeferencing annotation to GitHub
-The Allmaps Editor automatically saves your work. If you close the window, open the editor again, paste the same IIIF manifest link, you can continue to edit. If somebody else is editing the same map at the same time, their changes will become visible in real time. This also means somebody else can change your work, which is why you want to save the results independently of the Allmaps Editor. Follow these steps:
+The Allmaps Editor automatically saves your work. If you close the window, open the editor again, paste the same IIIF manifest link, you can continue to edit. If somebody else is editing the same map at the same time, their changes will become visible in real time. This also means somebody else can change your work, which is why you might want to save the results independently of the Allmaps Editor. Follow these steps:
 
 - Click the right button in the bottom menu. A popup displays the results of your work: a web annotation that references the IIIF image. The json document contains the mask (as a SVG selector) and the control points (in the form of an embedded geojson document, see below).
+- Select the scope of the annotation with the buttons next to `Show annotation for:`. `Manifest` means all maps within the loaded manifest, `Image` means all maps on the current image, `Map` means the current selected mask. (If there's only one canvas in the manifest containing a single map, the result will be the same.)
 - Copy the contents of the annotation by clicking the `Copy` button
 - Add a new file to the [/assets/annotations](https://github.com/theberlage/allmaps-workshop/tree/main/assets/annotations) folder in this GitHub repository. Give it a filename without spaces and special characters (you can use a hyphen `-` to indicate spaces). Add `.json` as extension. Save the file by committing it.
 
-*Alternative method*: several annotations can also be combined on a single `AnnotationPage`. Allmaps can generate this file for you. Follow these steps:
+*Alternative method using the Allmaps API*:
 
 - Copy the IIIF manifest link
 - Open this URL: [https://annotations.allmaps.org/?url=](https://annotations.allmaps.org/?url=)
@@ -94,6 +95,8 @@ There're two ways to view the annotation in the Allmaps Viewer.
 - Go to the [geojson](http://geojson.io) editor
 - Click `Meta` and `Add map layer` in the top menu. Paste the URL template and give the layer a name. Navigate the map to see the result (it won't do this automatically). At the bottom right, a checkbox appears to hide/show the layer
 - You can repeat these steps to add another layer
+
+❗You can also load XYZ maps in [Placemark](https://app.placemark.io/play). This app supports the TileJSON format which can be requested by using the following pattern: `https://allmaps.xyz/tiles.json?url=`.
 
 ## Annotate the map with geojson
 - In the geojson.io editor you can add markers, rectangles, polygons and polylines (see the tool palette). You can also edit and delete features by using the buttons at the bottom of the tool palette (follow the on-screen instructions).
