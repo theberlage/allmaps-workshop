@@ -7,10 +7,16 @@ Faculty of Architecture and the Built Environment
 
 Jules Schoonman (TU Delft Library)
 
+## Prerequisites
+- [GitHub account](https://github.com)
+- [GitHub Desktop](https://desktop.github.com) (or command line tools)
+- Updated browser (Firefox or Chrome)
+- Optional: code editor like [Visual Studio Code](https://code.visualstudio.com)
+
 ## Part I: Georeferencing
 _10:00-10:45_
 
-Guide: [Tutorial](/TUTORIAL.md)
+Guide: [Georeferencing](/GEOREFERENCING.md)
 
 Example: [Loman Atlas](https://editor.allmaps.org/#/collection?url=https%3A%2F%2Ftheberlage.github.io%2Fiiif-manifests%2Fstadsarchief-amsterdam%2F10043%2Flomanatlas.json)
 
