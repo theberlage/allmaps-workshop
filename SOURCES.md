@@ -24,7 +24,7 @@ Overview:
 \*\*) Partly accessible with IIIF
 
 IIIF access guides:
-- [Content DM to IIIF](https://observablehq.com/@allmaps/contentdm-to-iiif)
+- [Vrije Universiteit to IIIF](https://observablehq.com/@allmaps/contentdm-to-iiif)
 - [Stadsarchief Amsterdam to IIIF Image](https://observablehq.com/@allmaps/stadsarchief-amsterdam-to-iiif-image)
 - [Georeferencing Utrecht University Library Maps](https://observablehq.com/@allmaps/georeferencing-uu)
 - [Georeferencing the collection of The New Institute with Allmaps](https://observablehq.com/d/b4c83846ccf2e305)
