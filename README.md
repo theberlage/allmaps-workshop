@@ -1,15 +1,18 @@
 # Allmaps Workshop
 _6-9-2023_
+
 The Berlage Center for Advanced Studies in Architecture and Urban Design
+
 Faculty of Architecture and the Built Environment 
+
 Jules Schoonman (TU Delft Library)
 
 ## Part I: Georeferencing
-10:00-10:45
+_10:00-10:45_
 
-See [Tutorial](/TUTORIAL.md)
+Guide: [Tutorial](/TUTORIAL.md)
 
-Example: Loman Atlas
+Example: [Loman Atlas](https://editor.allmaps.org/#/collection?url=https%3A%2F%2Ftheberlage.github.io%2Fiiif-manifests%2Fstadsarchief-amsterdam%2F10043%2Flomanatlas.json)
 
 Parts:
 - What is IIIF?
@@ -19,9 +22,9 @@ Parts:
 - Saving to GitHub
 
 ## Part II: Sources
-11:00-11:45
+_11:00-11:45_
 
-See [Sources](/SOURCES.md)
+Guide: [Sources](/SOURCES.md)
 
 Parts:
 - Available collections
@@ -35,9 +38,9 @@ Parts:
 	- Metadata standards
 
 ## Part III: Annotations
-12:00-12:44
+_12:00-12:44_
 
-See [Annotations](/ANNOTATIONS.md)
+Guide: [Annotations](/ANNOTATIONS.md)
  
 Parts:
 - Geojson format
@@ -46,8 +49,7 @@ Parts:
 	- Adamlink
 
 ## Part IV: Custom images
-13:00-13:45
-_With digital group_
+_13:00-13:45, with digital group_
 
 Parts:
 - Converting sources
