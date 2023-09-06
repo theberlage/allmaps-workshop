@@ -1,0 +1,268 @@
+{
+  "type": "AnnotationPage",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld"
+  ],
+  "items": [
+    {
+      "id": "74c4619c3e187049",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://cdm21033.contentdm.oclc.org/iiif/2/krt:193/full/full/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://cdm21033.contentdm.oclc.org/iiif/2/krt:193",
+            "type": "ImageService2"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"4200\" height=\"3570\"><polygon points=\"2376,1466 2301,1688 2294,1709 2307,1714 2319,1722 2446,1721 2445,1705 2520,1529 2523,1493 2414,1482 2394,1456\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2460,
+                1542
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.9074095,
+                52.3708642
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2403,
+                1698
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.9037491,
+                52.3693489
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2395,
+                1508
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.9064107,
+                52.3718124
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2451,
+                1538
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.9072568,
+                52.3710107
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2459,
+                1518
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.9076058,
+                52.3711738
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2331,
+                1688
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.9023352,
+                52.370114
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "d8f4cab6c5713958",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://cdm21033.contentdm.oclc.org/iiif/2/krt:193/full/full/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://cdm21033.contentdm.oclc.org/iiif/2/krt:193",
+            "type": "ImageService2"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"4200\" height=\"3570\"><polygon points=\"3960,355 3956,799 3957,1557 2796,3278 1385,3247 1385,2926 1270,2737 858,2498 737,1569 431,1352 433,338\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                1745,
+                2196
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.882320827921084,
+                52.36886304376333
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                1680,
+                1445
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.891623724006208,
+                52.37914059178323
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2140,
+                2393
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.888157314737488,
+                52.36279661801487
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2931,
+                1428
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.91927193453172,
+                52.36796617187264
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                1258,
+                1410
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.882933366797961,
+                52.383384296456484
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                1519,
+                1426
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.888380233989033,
+                52.38082126952065
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
