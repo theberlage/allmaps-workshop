@@ -26,6 +26,12 @@ IIIF access guides:
 - [Georeferencing UvA Maps with Allmaps](https://observablehq.com/d/1fcb94939fd2af51)
 - [Georeferencing the collection of the National Archives](https://observablehq.com/d/f20a73ea8f8a4c50)
 
+Tools:
+- detektIIIF2 browser extension
+	- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/detektiiif2/)
+ 	- [Chrome](https://chrome.google.com/webstore/detail/detektiiif2/aaodcobgcadinjipaocibamdfcffpcpp)
+- [dezoomify](https://dezoomify.ophir.dev)
+
 ## Per site
 
 ### Uilenburg & Marken
