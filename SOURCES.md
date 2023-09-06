@@ -12,7 +12,8 @@ Other sources:
 - [Maps Amsterdam](https://maps.amsterdam.nl/)
 - [Data Amsterdam](https://data.amsterdam.nl/)
 - [Amsterdam Time Machine (UvA)](https://www.amsterdamtimemachine.nl/)
-	- [Straatleven](https://streetlife.amsterdamtimemachine.nl)
+	- [Tile layers](https://tiles.amsterdamtimemachine.nl/)
+ 	- [Straatleven](https://streetlife.amsterdamtimemachine.nl)
 - [Adamlink](https://adamlink.nl/)
 - [Nationaal Archief](https://www.nationaalarchief.nl/onderzoeken/kaarten-en-tekeningen) \*
 - [Noord Hollands Archief](https://noord-hollandsarchief.nl/) \*\*
