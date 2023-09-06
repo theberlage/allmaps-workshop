@@ -1,3 +1,5 @@
+# Annotations
+
 ## Add the map as a layer in geojson.io
 - In order to add the map as a layer in geojson.io (and also in GIS-applications), you need to use the Allmaps Tile Server. The Tile Server acts as a proxy server to translate IIIF images to [XYZ map tiles](https://en.wikipedia.org/wiki/Tiled_web_map), using the georeferencing annotation.
 - There're two ways to generate the URL template for XYZ map tiles:
