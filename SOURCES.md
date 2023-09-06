@@ -16,6 +16,7 @@ Overview:
 - [Building History (Bert Spaan)](https://code.waag.org/buildings/)
 
 \*) Full IIIF Access
+
 \*\*) Partly accessible with IIIF
 
 IIIF access guides:
