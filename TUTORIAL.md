@@ -1,10 +1,4 @@
-# Allmaps Tutorial
-
-## Prerequisites
-- [GitHub account](https://github.com)
-- [GitHub Desktop](https://desktop.github.com) (or command line tools)
-- Updated browser (Firefox or Chrome)
-- Optional: code editor like [Visual Studio Code](https://code.visualstudio.com)
+# Georeferencing
 
 ## What is IIIF?
 - The [International Image Interoperability Framework](https://iiif.io) (IIIF) is a set of standards used by cultural heritage institutions to share their digital collection data.
