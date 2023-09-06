@@ -32,6 +32,8 @@ _11:00-11:45_
 
 Guide: [Sources](/SOURCES.md)
 
+[Google Sheet](https://docs.google.com/spreadsheets/d/1pXo_9Y7qYX3qc0AEvRjauGyq6dDrBj_2VzxNSZ06Sro/edit?usp=sharing)
+
 Parts:
 - Available collections
 	- Stadsarchief
