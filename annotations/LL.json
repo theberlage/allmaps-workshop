@@ -1,0 +1,448 @@
+{
+  "type": "AnnotationPage",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld"
+  ],
+  "items": [
+    {
+      "id": "004b277a32f9a01e",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://stadsarchiefamsterdam.memorix.io/resources/records/media/77ef52ce-bafc-d1e7-c086-9a8315738208/iiif/3/36347541/full/max/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://stadsarchiefamsterdam.memorix.io/resources/records/media/77ef52ce-bafc-d1e7-c086-9a8315738208/iiif/3/36347541",
+            "type": "ImageService3"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8071\" height=\"5632\"><polygon points=\"3090,956 3821,1309 3467,2054 2732,1694\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2545,
+                2456
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8834482,
+                52.3743825
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                6072,
+                2032
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8889261,
+                52.3745634
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                5724,
+                4535
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8881165,
+                52.3722281
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                5129,
+                1943
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8874923,
+                52.3747093
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2545,
+                4516
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8832391,
+                52.3724411
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                3091,
+                957
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8844331,
+                52.3757474
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                4815,
+                4485
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8867539,
+                52.3723209
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "edde33b8ddbd66ff",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://stadsarchiefamsterdam.memorix.io/resources/records/media/77ef52ce-bafc-d1e7-c086-9a8315738208/iiif/3/36347541/full/max/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://stadsarchiefamsterdam.memorix.io/resources/records/media/77ef52ce-bafc-d1e7-c086-9a8315738208/iiif/3/36347541",
+            "type": "ImageService3"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8071\" height=\"5632\"><polygon points=\"2532,2937 3355,2934 3371,4505 2542,4516\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2543,
+                4516
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.883238,
+                52.3724403
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                3091,
+                963
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8844333,
+                52.3757472
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                4815,
+                4483
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8867535,
+                52.3723206
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                5128,
+                1943
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8874943,
+                52.3747089
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ac409ef54677d420",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://stadsarchiefamsterdam.memorix.io/resources/records/media/77ef52ce-bafc-d1e7-c086-9a8315738208/iiif/3/36347541/full/max/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://stadsarchiefamsterdam.memorix.io/resources/records/media/77ef52ce-bafc-d1e7-c086-9a8315738208/iiif/3/36347541",
+            "type": "ImageService3"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8071\" height=\"5632\"><polygon points=\"4242,1514 5128,1943 4803,2602 4796,2787 4814,4485 3826,4497 3811,2449 3834,2333\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                4243,
+                1513
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8861685,
+                52.3751558
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                4813,
+                4485
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8867537,
+                52.3723193
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                3826,
+                4496
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8852426,
+                52.3723756
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                5128,
+                1943
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8874934,
+                52.3747105
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "5b2778296e21bd92",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://stadsarchiefamsterdam.memorix.io/resources/records/media/77ef52ce-bafc-d1e7-c086-9a8315738208/iiif/3/36347541/full/max/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://stadsarchiefamsterdam.memorix.io/resources/records/media/77ef52ce-bafc-d1e7-c086-9a8315738208/iiif/3/36347541",
+            "type": "ImageService3"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8071\" height=\"5632\"><polygon points=\"5641,1880 6072,2031 5884,3309 5248,3246 5271,2656\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "purpose": "gcp-georeferencing",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                5642,
+                1881
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.888267,
+                52.3747385
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                6072,
+                2031
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8889267,
+                52.3745622
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                5882,
+                3311
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8884907,
+                52.3733843
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                5249,
+                3249
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.8875334,
+                52.3734802
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
