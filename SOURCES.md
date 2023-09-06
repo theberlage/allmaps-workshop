@@ -4,11 +4,14 @@ Overview:
 - [Maps Amsterdam](https://maps.amsterdam.nl/)
 - [Data Amsterdam](https://data.amsterdam.nl/)
 - [Amsterdam City Archive](https://archief.amsterdam/) \*\*
+	- [Stadsarchief Amsterdam to IIIF Image](https://observablehq.com/@allmaps/stadsarchief-amsterdam-to-iiif-image)
 - [Amsterdam Time Machine (UvA)](https://www.amsterdamtimemachine.nl/)
 	- [Straatleven](https://streetlife.amsterdamtimemachine.nl)
 - [Adamlink](https://adamlink.nl/)
 - [Allard Pierson](https://uvaerfgoed.nl//beeldbank/) \*
+	- Use the detektIIIF2 extension (see below)
 - [Vrije Universiteit](https://vu.contentdm.oclc.org/digital/collection/krt) \*
+	- [Vrije Universiteit to IIIF](https://observablehq.com/@allmaps/contentdm-to-iiif)
 - [Nationaal Archief](https://www.nationaalarchief.nl/onderzoeken/kaarten-en-tekeningen) \*
 - [Noord Hollands Archief](https://noord-hollandsarchief.nl/) \*\*
 - [3D Amsterdam](https://3d.amsterdam.nl)
@@ -24,8 +27,7 @@ Overview:
 \*\*) Partly accessible with IIIF
 
 IIIF access guides:
-- [Vrije Universiteit to IIIF](https://observablehq.com/@allmaps/contentdm-to-iiif)
-- [Stadsarchief Amsterdam to IIIF Image](https://observablehq.com/@allmaps/stadsarchief-amsterdam-to-iiif-image)
+
 - [Georeferencing Utrecht University Library Maps](https://observablehq.com/@allmaps/georeferencing-uu)
 - [Georeferencing the collection of The New Institute with Allmaps](https://observablehq.com/d/b4c83846ccf2e305)
 - [Georeferencing UvA Maps with Allmaps](https://observablehq.com/d/1fcb94939fd2af51)
