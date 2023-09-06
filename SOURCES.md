@@ -1,17 +1,19 @@
 # Sources
 
-Overview:
+Main source:
+- [Amsterdam City Archive](https://archief.amsterdam/) \*\*
+	- [Notebook to open in Allmaps](https://observablehq.com/@allmaps/stadsarchief-amsterdam-to-iiif-image)
+- [Vrije Universiteit](https://vu.contentdm.oclc.org/digital/collection/krt) \*
+	- [Notebook to open in Allmaps](https://observablehq.com/@allmaps/contentdm-to-iiif)
+ - [Allard Pierson](https://uvaerfgoed.nl//beeldbank/) \*
+	- Use the detektIIIF2 extension to open in Allmaps (see below)
+
+Other sources:
 - [Maps Amsterdam](https://maps.amsterdam.nl/)
 - [Data Amsterdam](https://data.amsterdam.nl/)
-- [Amsterdam City Archive](https://archief.amsterdam/) \*\*
-	- [Stadsarchief Amsterdam to IIIF Image](https://observablehq.com/@allmaps/stadsarchief-amsterdam-to-iiif-image)
 - [Amsterdam Time Machine (UvA)](https://www.amsterdamtimemachine.nl/)
 	- [Straatleven](https://streetlife.amsterdamtimemachine.nl)
 - [Adamlink](https://adamlink.nl/)
-- [Allard Pierson](https://uvaerfgoed.nl//beeldbank/) \*
-	- Use the detektIIIF2 extension (see below)
-- [Vrije Universiteit](https://vu.contentdm.oclc.org/digital/collection/krt) \*
-	- [Vrije Universiteit to IIIF](https://observablehq.com/@allmaps/contentdm-to-iiif)
 - [Nationaal Archief](https://www.nationaalarchief.nl/onderzoeken/kaarten-en-tekeningen) \*
 - [Noord Hollands Archief](https://noord-hollandsarchief.nl/) \*\*
 - [3D Amsterdam](https://3d.amsterdam.nl)
