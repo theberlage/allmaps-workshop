@@ -1,5 +1,5 @@
 # Allmaps Workshop
-_6-9-2023_
+_9-9-2024_
 
 The Berlage Center for Advanced Studies in Architecture and Urban Design
 
@@ -17,8 +17,6 @@ Jules Schoonman (TU Delft Library)
 _10:00-10:45_
 
 Guide: [Georeferencing](/GEOREFERENCING.md)
-
-Example: [Loman Atlas](https://editor.allmaps.org/#/collection?url=https%3A%2F%2Ftheberlage.github.io%2Fiiif-manifests%2Fstadsarchief-amsterdam%2F10043%2Flomanatlas.json)
 
 Parts:
 - What is IIIF?
