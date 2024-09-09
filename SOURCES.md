@@ -68,6 +68,7 @@ IIIF access guides:
 	- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/detektiiif2/)
  	- [Chrome](https://chrome.google.com/webstore/detail/detektiiif2/aaodcobgcadinjipaocibamdfcffpcpp)
 - [dezoomify](https://dezoomify.ophir.dev)
+- [IIIF Bookmarklets](https://iiif-bookmarklets.netlify.app/)
 
 ## Per theme
 
