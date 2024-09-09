@@ -23,13 +23,27 @@ List of archives containing digitised maps:
 - [4.ZHPB2](https://www.nationaalarchief.nl/onderzoeken/archief/4.ZHPB2) Provinciaal Bestuur Zuid-Holland: Polderreglementskaarten
 - [4.ZHPB4](https://www.nationaalarchief.nl/onderzoeken/archief/4.ZHPB4) Provinciaal Bestuur Zuid-Holland: Kaartencollectie Ernsting, voor 1850
 
+Dunes map:
+
+- [Kaart van de duinen uit 1828 gevonden](https://duinenenmensen.nl/verloren-gewaande-kaart-van-de-nederlandse-duinen-uit-1828-teruggevonden/)
+- [870.2H Gedeelte H: van de Maas tot aan Zandvoort in 7 bladen, door Etiennez, Carbentus en Verbeke, December 1827](https://www.nationaalarchief.nl/onderzoeken/archief/4.FIDZ/invnr/870.2H/file/NL-HaNA_4.FIDZ_870.2H)
+  - [Allmaps Viewer](https://viewer.allmaps.org/?url=https%3A%2F%2Fannotations.allmaps.org%2Fimages%2F9848b4cf642f6076&image=9848b4cf642f6076&map=896f77037f8c6b1b)
+- Stukken (exhibita) betreffende het onderzoek van Gevers en Dechesnes naar de exploitatie der duinen in Frankrijk en Nederland, alsmede proeven tot ontginning van duingronden. 1826-1831 1 pak
+  - [1516A rapporten](https://www.nationaalarchief.nl/onderzoeken/archief/2.08.30.04/invnr/1516A/file/NL-HaNA_2.08.30.04_1516A_001)
+  - [1516B potjes met zandmonsters](https://www.nationaalarchief.nl/onderzoeken/archief/2.08.30.04/invnr/1516B/file/NL-HaNA_2.08.30.04_1516B_01)
+ 
+Similar maps:
+
+- [185 - Kaart van de Delflandsche zeewering tusschen Scheveningen en den Hoek van Holland.](https://www.nationaalarchief.nl/onderzoeken/archief/4.VTH/invnr/185/file/NL-HaNA_4.VTH_185)
+  - [In Allmaps Viewer](https://viewer.allmaps.org/?url=https%3A%2F%2Fannotations.allmaps.org%2Fimages%2Ff48cf1d1d7cde41e&image=f48cf1d1d7cde41e&map=57289d5a1490d9d4)
+
 ## Haags Gemeentearchief
 
 - [Haags Gemeentearchief](https://haagsgemeentearchief.nl/)
 
 Some of the images from the "Beeldcollectie" can be opened in Allmaps directly. If you make a new bookmark, paste the code below and click on it on a media record page, it will try to open the image in Allmaps Editor. If this doesn't work, you can download it and add it to the SURFdrive folder.
 
-[Page for testing](https://haagsgemeentearchief.nl/mediabank/beeldcollectie/detail/135c9ab3-34a6-1eff-0ccf-7b3a84053e74/media/63fd63ce-05b0-5567-854f-fa4162cbf9ea?mode=detail&view=horizontal&q=kadaster&rows=1&page=1)
+[Test the bookmarklet on this page](https://haagsgemeentearchief.nl/mediabank/beeldcollectie/detail/135c9ab3-34a6-1eff-0ccf-7b3a84053e74/media/63fd63ce-05b0-5567-854f-fa4162cbf9ea?mode=detail&view=horizontal&q=kadaster&rows=1&page=1)
 
 ```js
 javascript: (async function () {
