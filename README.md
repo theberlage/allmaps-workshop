@@ -21,22 +21,10 @@ _10:00-10:45_
 
 Parts:
 - Discuss course syllabus
-- Analyse City Atlas 
+- Analyse City Atlas
 
-### Part I: Georeferencing
+### Part I: Finding resources
 _10:45-11:45_
-
-Guide: [Georeferencing](/GEOREFERENCING.md)
-
-Parts:
-- What is IIIF?
-- Allmaps Editor
-- Georeference Annotation
-- Allmaps Viewer
-- Saving to GitHub
-
-### Part II: Finding resources
-_11:45-12:45_
 
 Guide: [Sources](/SOURCES.md)
 
@@ -47,6 +35,18 @@ Parts:
 - Finding IIIF URIs
 - Collecting in Google Sheet
 - Using the shared SURFdrive folder
+
+### Part II: Georeferencing
+_11:45-12:45_
+
+Guide: [Georeferencing](/GEOREFERENCING.md)
+
+Parts:
+- What is IIIF?
+- Allmaps Editor
+- Georeference Annotation
+- Allmaps Viewer
+- Saving to GitHub
 
 _12:45-13:45 Break_
 
