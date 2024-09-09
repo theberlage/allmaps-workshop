@@ -10,18 +10,18 @@ Usefull links:
 List of archives containing digitised maps:
 - [2.13.167](https://www.nationaalarchief.nl/onderzoeken/archief/2.13.167) 2e Geniecommandement Bureau Registratie Verdedigingswerken (Bunkerarchief) [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/2.13.167.json)
 - [4.ASB](https://www.nationaalarchief.nl/onderzoeken/archief/4.ASB) Algemene Secretarie van de Nederlands-Indische Regering te Batavia - Kaarten en Affiches [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.ASB.json)
-- [4.DEF](https://www.nationaalarchief.nl/onderzoeken/archief/4.DEF) Collectie Jacob van Deventer [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.DEF.json)
-- [4.KADOR-G](https://www.nationaalarchief.nl/onderzoeken/archief/4.KADOR-G) Minuutplans en Verzamelplans van het Kadaster Zuid-Holland, District 's-Gravenhage [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.KADOR-G.json)
-- [4.KADOR-R](https://www.nationaalarchief.nl/onderzoeken/archief/4.KADOR-R) Minuutplans en Verzamelplans van het Kadaster Zuid-Holland, District Rotterdam [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.KADOR-R.json)
+- [4.DEF](https://www.nationaalarchief.nl/onderzoeken/archief/4.DEF) Collectie Jacob van Deventer
+- [4.KADOR-G](https://www.nationaalarchief.nl/onderzoeken/archief/4.KADOR-G) Minuutplans en Verzamelplans van het Kadaster Zuid-Holland, District 's-Gravenhage
+- [4.KADOR-R](https://www.nationaalarchief.nl/onderzoeken/archief/4.KADOR-R) Minuutplans en Verzamelplans van het Kadaster Zuid-Holland, District Rotterdam
 - [4.MIKO](https://www.nationaalarchief.nl/onderzoeken/archief/4.MIKO) Ministerie van Koloniën - Kaarten en Tekeningen [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.MIKO.json)
-- [4.RGD](https://www.nationaalarchief.nl/onderzoeken/archief/4.RGD) Rijksgebouwendienst: Tekeningenarchief [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.RGD.json)
+- [4.RGD](https://www.nationaalarchief.nl/onderzoeken/archief/4.RGD) Rijksgebouwendienst: Tekeningenarchief
 - [4.TOPO](https://www.nationaalarchief.nl/onderzoeken/archief/4.TOPO) Topografische Dienst en Rechtsvoorgangers: Kaartenarchief [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.TOPO.json)
 - [4.VEL](https://www.nationaalarchief.nl/onderzoeken/archief/4.VEL) Verzameling Buitenlandse Kaarten Leupe [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.VEL.json)
 - [4.VELH](https://www.nationaalarchief.nl/onderzoeken/archief/4.VELH) Verzameling Buitenlandse Kaarten Leupe: Eerste Supplement [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.VELH.json)
 - [4.VTH](https://www.nationaalarchief.nl/onderzoeken/archief/4.VTH) Verzameling Binnenlandse Kaarten Hingman [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.VTH.json)
 - [4.VTHR](https://www.nationaalarchief.nl/onderzoeken/archief/4.VTHR) Verzameling Binnenlandse Kaarten Hingman: Eerste en Tweede Supplement [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.VTHR.json)
-- [4.ZHPB2](https://www.nationaalarchief.nl/onderzoeken/archief/4.ZHPB2) Provinciaal Bestuur Zuid-Holland: Polderreglementskaarten [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.ZHPB2.json)
-- [4.ZHPB4](https://www.nationaalarchief.nl/onderzoeken/archief/4.ZHPB4) Provinciaal Bestuur Zuid-Holland: Kaartencollectie Ernsting, voor 1850 [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.ZHPB4.json)
+- [4.ZHPB2](https://www.nationaalarchief.nl/onderzoeken/archief/4.ZHPB2) Provinciaal Bestuur Zuid-Holland: Polderreglementskaarten
+- [4.ZHPB4](https://www.nationaalarchief.nl/onderzoeken/archief/4.ZHPB4) Provinciaal Bestuur Zuid-Holland: Kaartencollectie Ernsting, voor 1850
 
 ## Haags Gemeentearchief
 
