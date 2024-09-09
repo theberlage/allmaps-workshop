@@ -11,10 +11,20 @@ Jules Schoonman (TU Delft Library)
 - [GitHub account](https://github.com)
 - [GitHub Desktop](https://desktop.github.com) (or command line tools)
 - Updated browser (Firefox or Chrome)
+- [detektIIIF](https://seige.digital/en/detektiiif/) browser extension
 - Optional: code editor like [Visual Studio Code](https://code.visualstudio.com)
 
-## Part I: Georeferencing
+## Program
+
+### Introduction
 _10:00-10:45_
+
+Parts:
+- Discuss course syllabus
+- Analyse City Atlas 
+
+### Part I: Georeferencing
+_10:45-11:45_
 
 Guide: [Georeferencing](/GEOREFERENCING.md)
 
@@ -25,38 +35,32 @@ Parts:
 - Allmaps Viewer
 - Saving to GitHub
 
-## Part II: Sources
-_11:00-11:45_
+### Part II: Finding resources
+_11:45-12:45_
 
 Guide: [Sources](/SOURCES.md)
 
-[Google Sheet](https://docs.google.com/spreadsheets/d/1pXo_9Y7qYX3qc0AEvRjauGyq6dDrBj_2VzxNSZ06Sro/edit?usp=sharing)
+[Gen 34's Google Sheet](https://docs.google.com/spreadsheets/d/1pXo_9Y7qYX3qc0AEvRjauGyq6dDrBj_2VzxNSZ06Sro/edit?usp=sharing)
 
 Parts:
 - Available collections
-	- Stadsarchief
-	- Allard Pierson (UvA)
-	- VU
 - Finding IIIF URIs
-	- Notebooks
-	- Firefox Extension
 - Collecting in Google Sheet
-	- Metadata standards
+- Using the shared SURFdrive folder
 
-## Part III: Annotations
-_12:00-12:44_
+_12:45-13:45 Break_
+
+### Part III: Annotations
+_13:45-14:45_
 
 Guide: [Annotations](/ANNOTATIONS.md)
  
 Parts:
 - Geojson format
-- Placemark
-- Available vector data
-	- Adamlink
+- Felt, Placemark and Geojson.io
+- Using vector data
 
-## Part IV: Custom images
-_13:00-13:45, with digital group_
+### Part IV: Working session
+_14:45-17:00_
 
-Parts:
-- Converting sources
-- Using TU Delft’s IIIF Server
+
