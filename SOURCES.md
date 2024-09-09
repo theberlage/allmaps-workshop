@@ -23,10 +23,33 @@ List of archives containing digitised maps:
 - [4.ZHPB2](https://www.nationaalarchief.nl/onderzoeken/archief/4.ZHPB2) Provinciaal Bestuur Zuid-Holland: Polderreglementskaarten [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.ZHPB2.json)
 - [4.ZHPB4](https://www.nationaalarchief.nl/onderzoeken/archief/4.ZHPB4) Provinciaal Bestuur Zuid-Holland: Kaartencollectie Ernsting, voor 1850 [Open in Mirador](https://projectmirador.org/embed/?manifest=https://data.globalise.huygens.knaw.nl/manifests/maps/4.ZHPB4.json)
 
+## Haags Gemeentearchief
+
+- [Haags Gemeentearchief](https://haagsgemeentearchief.nl/)
+
+Some of the images from the "Beeldcollectie" can be opened in Allmaps directly. If you make a new bookmark, paste the code below and click on it on a media record page, it will try to open the image in Allmaps Editor. If this doesn't work, you can download it and add it to the SURFdrive folder.
+
+[Page for testing](https://haagsgemeentearchief.nl/mediabank/beeldcollectie/detail/135c9ab3-34a6-1eff-0ccf-7b3a84053e74/media/63fd63ce-05b0-5567-854f-fa4162cbf9ea?mode=detail&view=horizontal&q=kadaster&rows=1&page=1)
+
+```js
+javascript: (async function () {
+const apiKey = document.getElementsByTagName("pic-mediabank")[0].getAttribute("data-api-key");
+const baseUrl = document.getElementsByTagName("pic-mediabank")[0].getAttribute("data-api-url");
+const matches = location.href.match(/\/detail\/(.+?)\/media\/(.+?)\?/);
+const mediaId = matches[1];
+const imageId = matches[2];
+const apiUrl = baseUrl + "media/" + mediaId + "?apiKey=" + apiKey;
+const resp = await fetch(apiUrl).then(resp => resp.json());
+const asset = resp.media[0].asset.filter(asset => asset.uuid === imageId)[0];
+const allmapsEditorBase = "https://editor.allmaps.org/#/collection?url=";
+const iiifUrl = asset.topview.replace("topviewjson/memorix","iiif");
+location = allmapsEditorBase + iiifUrl;
+})()
+```
+
 ## Other collections
 
 - [Stadsarchief Rotterdam](https://stadsarchief.rotterdam.nl/) (No IIIF)
-- [Haags Gemeentearchief](https://haagsgemeentearchief.nl/) (Partly IIIF)
 - [Vrije Universiteit](https://vu.contentdm.oclc.org/digital/collection/krt)
 - [Allard Pierson](https://uvaerfgoed.nl/beeldbank/)
 - [Utrecht University Library](https://www.uu.nl/bijzondere-collecties)
